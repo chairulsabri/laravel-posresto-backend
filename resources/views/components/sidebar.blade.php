@@ -26,6 +26,20 @@
                         <a class="nav-link"
                             href="{{ route('user.index') }}">All User</a>
                 </ul>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="nav-link"
+                            href="{{ route('products.index') }}">Products</a>
+                </ul>
+
+                <ul class="dropdown-menu">
+                    <li class=''>
+                        <a class="nav-link" href="{{ route('categories.index') }}">Categories</a>
+                    </li>
+
+                </ul>
+
+
             </li>
     </aside>
 </div>
